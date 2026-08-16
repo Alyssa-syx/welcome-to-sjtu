@@ -1,4 +1,4 @@
 interface:
-  display_name: "上海交通大学全能 AI 校园助手"
-  short_description: "覆盖作业追踪、课程评价、校园生活与学术工具的交大 AI 助手"
+  display_name: "交大迎新 Skill"
+  short_description: "覆盖作业追踪、课程评价、校园生活与学术工具的交大校园助手"
   default_prompt: "Use $welcome-to-sjtu 帮我处理一个交大学习或校园生活问题。"

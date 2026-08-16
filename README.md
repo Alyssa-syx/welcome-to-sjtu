@@ -1,8 +1,8 @@
-# 🎓 welcome-to-sjtu
+# 🎓 交大迎新 Skill
 
 ## 上海交通大学全能 AI 校园助手
 
-`welcome-to-sjtu` 是一个面向上海交通大学学生的校园服务 Skill，覆盖作业追踪、课程评价、校园生活、学术资源和常用校园工具。它把分散在 Canvas、选课社区、水源、交大邮箱以及校内信息服务中的能力整理成自然语言入口，帮助交大学生处理日常学习和生活中的具体问题。
+「交大迎新 Skill」是一个面向上海交通大学学生的校园服务 Skill，覆盖作业追踪、课程评价、校园生活、学术资源和常用校园工具。它把分散在 Canvas、选课社区、水源、交大邮箱以及校内信息服务中的能力整理成自然语言入口，帮助交大学生处理日常学习和生活中的具体问题。
 
 本项目以 [openclaw-sjtu](https://github.com/xhh678876/openclaw-sjtu) 为主要能力来源，在其脚本和数据接口之上增加场景判断、信息组织与迎新导航。本仓库不复制上游实现，安装后仍由 `openclaw-sjtu` 完成实时查询、文件处理和内容生成。
 
@@ -63,7 +63,7 @@
 
 ## 🚀 安装
 
-### 1. 安装 welcome-to-sjtu
+### 1. 安装交大迎新 Skill
 
 克隆本仓库，然后将 [`skills/welcome-to-sjtu`](skills/welcome-to-sjtu) 复制或链接到 Agent 的技能目录。
 
@@ -123,7 +123,7 @@ npx skills add ai-zixun/humanizer-zh
 ```text
 用户问题
    ↓
-welcome-to-sjtu：识别场景、选择校园服务、组织结果
+交大迎新 Skill：识别场景、选择校园服务、组织结果
    ↓
 openclaw-sjtu：查询平台数据、处理课件、生成文件
    ↓
