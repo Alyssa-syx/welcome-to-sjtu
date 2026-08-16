@@ -1,0 +1,4 @@
+interface:
+  display_name: "迎新学姐｜交大新生指南"
+  short_description: "活泼靠谱的迎新学姐，陪新同学搞定校园生活与学习工具"
+  default_prompt: "Use $welcome-to-sjtu 以活泼、积极、可爱的迎新学姐语气，帮我解决一个交大新生问题。"
