@@ -5,7 +5,7 @@
 - [核对范围](#核对范围)
 - [运行约定](#运行约定)
 - [核心能力](#核心能力)
-- [其他迎新能力](#其他迎新能力)
+- [其他校园能力](#其他校园能力)
 - [已知限制](#已知限制)
 - [执行安全](#执行安全)
 
@@ -21,7 +21,7 @@
 1. 从上游仓库根目录运行脚本。脚本依赖相对位置查找 `config.json`、`templates/` 和 `fonts/`。
 2. 按需从 `config.example.json` 复制配置；不要提交包含真实凭证的 `config.json`。
 3. 主功能常用依赖包括 Python 3、`requests`、`beautifulsoup4`、`python-pptx`、`pdfplumber`、`python-docx`、Pillow 等；水源与 SJTU Date 脚本需要 Node.js 18+。
-4. 只启用当前任务需要的凭证。Canvas、jCourse、传承、邮箱、水源和龙虾广场各自独立，不要为了迎新一次性索取全部账号信息。
+4. 只启用当前任务需要的凭证。Canvas、jCourse、传承、邮箱、水源和龙虾广场各自独立，不要一次性索取全部账号信息。
 
 ## 核心能力
 
@@ -56,11 +56,11 @@
 4. 区分帖子原话、多个用户的共同观点和模型归纳。政策问题回链官方通知。
 5. 遇到 429 按提示等待，不进行循环重试。
 
-### SJTU Date 取舍
+### SJTU Date 调用说明
 
 上游脚本支持 `login`、`profile`、`match`、`match-history`、`shoot`、`survey`、`submit-survey` 等命令。当前核对提交中，根 `SKILL.md` 引用了 `skills/sjtu-date/SKILL.md`，但仓库实际未包含该文件，仅包含 `scripts/sjtudate.mjs` 与 `skills/sjtu-date/scripts/sjtudate.mjs`。因此：
 
-- 默认恋爱推荐仍按本技能选择水源“鹊桥”。
+- 用户咨询恋爱交友渠道时优先介绍水源「鹊桥」。
 - 用户明确选择 SJTU Date 时，先查看当前脚本帮助和源码，不依赖缺失的子技能文档。
 - 登录、提交问卷、发心动和任何对外消息均视为敏感或写操作；说明数据用途并在执行前确认。
 
@@ -72,7 +72,7 @@
 4. GET 类读取可直接执行；POST/PATCH/DELETE 前展示目标和内容并二次确认。
 5. 401 要求重新签发 key；429 停止重试并报告限流。
 
-## 其他迎新能力
+## 其他校园能力
 
 | 场景 | 入口 | 数据性质 |
 |---|---|---|
